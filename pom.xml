@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.Aya</groupId>
+    <!-- groupid : refer to the company  Artifct; refer to the project  name or a specifc module -->
+    <artifactId>my-TestingFramework</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- All of them put together to be unique for Repo that contain
+     dependencies like Maven or Private repo like Nexus -->
+    <!-- like this format groupId:artifactId:version-->
+
+
+</project>
