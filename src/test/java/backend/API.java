@@ -24,8 +24,8 @@ ConfigManager configManager = new ConfigManager();
     }
     @Test
     public void Test1() {
-        given().get("/users?page=2").then()
-                .statusCode(200).assertThat().body(matchesJsonSchemaInClasspath("jsonSchemas/schema_reqres_getlist_response.json"));
+        given().get("/users/2").then()
+                .statusCode(200).assertThat().body(matchesJsonSchemaInClasspath("jsonSchemas/schema_reqres_getlist_response.json")).log().all();
 
 
     }
